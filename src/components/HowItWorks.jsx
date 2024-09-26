@@ -54,9 +54,9 @@ const HowItWorks = () => {
                 className="bg-transparent relative z-10"
               />
             </div>
-            <div className="hiw-video">
+            <div className="hiw-video flex justify-center items-center">
               <video
-                className="pointer-events-none"
+                className="pointer-events-none rounded-3xl"
                 playsInline
                 preload="none"
                 muted
@@ -82,13 +82,13 @@ const HowItWorks = () => {
               .
             </p>
 
-          <p className="hiw-text g_fadeIn">
-            Mobile{" "}
-            <span className="text-white">
-              games will look and feel so immersive
-            </span>
-            , with incredibly detailed environments and characters.
-          </p>
+            <p className="hiw-text g_fadeIn">
+              Mobile{" "}
+              <span className="text-white">
+                games will look and feel so immersive
+              </span>
+              , with incredibly detailed environments and characters.
+            </p>
           </div>
 
           <div className="flex-1 flex justify-center flex-col g_fadeIn">
